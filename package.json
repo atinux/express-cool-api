@@ -1,6 +1,6 @@
 {
   "name": "express-cool-api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Cool API = easy & specific JSON validation as a middleware",
   "author": "Sebastien Chopin",
   "main": "index.js",

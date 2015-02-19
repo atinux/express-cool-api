@@ -1,12 +1,12 @@
 # express-cool-api
 Build a "cool" API by being less restrictive on your JSON validation.
 
-# Installation
+## Installation
 ```
 npm install express-cool-api
 ```
 
-# Usage
+## Usage
 ```js
 var cool = require('express-cool-api');
 
@@ -16,7 +16,7 @@ app.post('/api/articles', cool.sanitize(schemaSanitization), cool.validate(schem
 });
 ```
 
-# API
+## API
 ```
 // Transform the given json as a cool hash
 cool.sanitize(schema);
@@ -26,3 +26,7 @@ cool.sanitize(schema);
 cool.sanitize(schema);
 // Aliases: cool.s(schema), cool.sanitization(schema)
 ```
+
+## Sanitization and Validation Documentation
+
+https://github.com/Atinux/schema-inspector
